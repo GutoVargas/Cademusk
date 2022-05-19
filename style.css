@@ -37,6 +37,7 @@ body{
 	align-items: center;
 	justify-content: center;
 	box-shadow: 10px white;
+	background-color: rgb(72,70,71);
 }
 
 
@@ -48,7 +49,7 @@ body{
 
 .folder img:hover{
 	opacity: 0.5;
-}
+}	
 
 .text{
 	font-family: 'Dosis', sans-serif;
