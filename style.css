@@ -5,6 +5,7 @@
 body{
 	background-color: #2c2c2c;
 }
+/* Estilo do conteúdo do Menu */
 
 .menu {
 	background-color: rgba(35,31,32,255);
@@ -31,7 +32,7 @@ body{
 	font-size: 25px;
 	padding: 15px;
 }
-
+/* Estilo do conteúdo do Folder */
 .folder{
 	display: flex;
 	min-height: 350px;
@@ -52,6 +53,7 @@ body{
 	background-color: rgba(35,31,32,0);
 }
 
+/* Estilo do conteúdo do Texto Sobre */
 
 .text{
 	font-family: 'Dosis', sans-serif;
@@ -72,9 +74,41 @@ body{
 	color: #231c23;
 }
 
+/* Estilo do conteúdo da Área Contato */
+
+.contato{
+	font-family: 'Dosis', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 250px;
+	padding: 15px;
+}
+
+.contato h1{
+	font-size: 40px;
+	margin-right: 40px;
+	color: white;
+}
+
+.contato .jobs{
+	color: white;
+	font-size: 25px;
+}
+
+/* Estilo do conteúdo do Footer */
+
 footer{
+
+	position: inherit;
 	font-size: 10px;
 	align-items: center;
 	text-align: center;
 	font-family: 'Dosis', sans-serif;
+	background-color: rgba(254,254,254,255);
+}
+
+footer h1{
+	color: black;
+	padding: 10px;
 }
