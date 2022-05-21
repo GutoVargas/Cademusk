@@ -2,6 +2,10 @@
 	margin: 0px;
 	padding: 0px;
 }
+
+html{
+	scroll-behavior: smooth;
+}
 body{
 	background-color: #2c2c2c;
 }
@@ -19,6 +23,7 @@ body{
 	height: 50px;
 	position: fixed;
 	transition: top 0,2s;
+	
 }
 
 .menu li{
@@ -89,6 +94,10 @@ body{
 	font-size: 40px;
 	margin-right: 40px;
 	color: white;
+}
+
+.contato img{
+	height: 0.2px;
 }
 
 .contato .jobs{
